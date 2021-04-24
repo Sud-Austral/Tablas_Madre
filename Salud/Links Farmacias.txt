@@ -1,0 +1,4 @@
+Links para las farmacias:
+
+Farmacias Normales https://raw.githubusercontent.com/Sud-Austral/Datos/master/Farmacia/Farmacias.csv
+Farmacias de turno https://raw.githubusercontent.com/Sud-Austral/Datos/master/Farmacia/FarmaciasTurno.csv
