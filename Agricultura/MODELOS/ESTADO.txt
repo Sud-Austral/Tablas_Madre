@@ -1,0 +1,15 @@
+4.1	Exportaciones_fruta_tonelada	CARO --> LISTO
+4.2	Exportaciones_fruta_dolares	CARO ¡?¡?¡?¡?
+4.3	Importaciones_fruta_tonelada	NATY --> LISTO
+4.4	Importaciones_fruta_dolares	PAULA --> LISTO
+4.5	Empresas_Agricultura		ASTRID- Ver con Clau
+4.6	Procesos_Agroindustriales_fruta	FER --> LISTO
+4.7	Superficie_Plantada_Hortalizas	FER --> LISTO
+4.8	Mano Obra_Agricultura_2008_2019	NATY --> ¡?¡?¡?¡?
+4.9	Superficie_cosechada_Ha		FER --> ¡?¡?¡?¡?
+4.10	Producción_regional_cultivo	NATY --> ¡?¡?¡?¡?
+4.11	Rendimiento_regional_cultivo	PAULA --> ¡?¡?¡?¡?
+4.12	Sup_Plantada_Frutícola	 	YO --> ¡?¡?¡?¡?
+4.13	Directorio_Agroindustria_2020	YO --> LISTO
+4.14	Precios Frutas			YO --> LISTO
+4.15	Precios Hortalizas		YO --> LISTO
