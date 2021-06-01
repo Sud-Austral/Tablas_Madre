@@ -1,5 +1,5 @@
 4.1	Exportaciones_fruta_tonelada	CARO --> LISTO
-4.2	Exportaciones_fruta_dolares	CARO ¡?¡?¡?¡?
+4.2	Exportaciones_fruta_dolares	CARO --> LISTO
 4.3	Importaciones_fruta_tonelada	NATY --> LISTO
 4.4	Importaciones_fruta_dolares	PAULA --> LISTO
 4.5	Empresas_Agricultura		ASTRID- Ver con Clau
