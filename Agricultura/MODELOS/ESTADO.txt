@@ -7,7 +7,7 @@
 4.7	Superficie_Plantada_Hortalizas	FER --> LISTO
 4.8	Mano Obra_Agricultura_2008_2019	NATY --> LISTO
 4.9	Superficie_cosechada_Ha		FER --> LISTO
-4.10	Producción_regional_cultivo	NATY --> ¡?¡?¡?¡?
+4.10	Producción_regional_cultivo	NATY --> LISTO
 4.11	Rendimiento_regional_cultivo	PAULA --> ¡?¡?¡?¡?
 4.12	Sup_Plantada_Frutícola	 	YO --> ¡?¡?¡?¡?
 4.13	Directorio_Agroindustria_2020	YO --> LISTO
