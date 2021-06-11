@@ -1,0 +1,26 @@
+27.1	Acoso Laboral 1			FER --> Modelo
+27.2	Acoso Laboral 2			FER --> Modelo
+27.3	Violencia Intrafamiliar 1		FER --> Modelo
+27.4	Violencia Intrafamiliar 2		FER --> Modelo
+27.5	Violencia Intrafamiliar 3		FER --> Modelo
+27.6	Violación 1				YO --> Modelo
+27.7	Violación 2			YO --> Modelo
+27.8	Violación 3			YO --> Modelo
+27.9	Violencia Económica Frecuencia		CARO --> Modelo
+27.10	Atenciones Salud			CARO --> Modelo
+27.11	Establecimientos de Apoyo 1		NATY --> Modelo
+27.12	Establecimientos de Apoyo 2	 	NATY --> Modelo
+27.13	Establecimientos de Apoyo 3		NATY --> Modelo
+27.14	Establecimientos de Apoyo 4		NATY --> Modelo
+27.15	Abuso Sexual			---------------
+27.16	Sentencias Generales			---------------
+27.17	Violencia Psicológica Frecuencia	PAULA--> Modelo
+27.18	Violencia Psicológica Tasa 100 mil	PAULA--> Modelo
+27.19	Violencia Psicológica Tasa 100 mil mujeres	PAULA--> Modelo
+27.20	Violencia General Frecuencia		PAULA--> Modelo
+27.21	Violencia General Tasa 100 mil		PAULA--> Modelo
+27.22	Violencia General Tasa 100 mil mujeres	PAULA--> Modelo
+27.23	Violencia Económica Tasa 100 mil	CARO --> Modelo
+27.24	Violencia Económica Tasa 100 mil mujeres	CARO --> Modelo
+27 	Femicidios 			YO --> Modelo LISTO // Gráficos LISTO
+27.25	Acoso Callejero			--------------
