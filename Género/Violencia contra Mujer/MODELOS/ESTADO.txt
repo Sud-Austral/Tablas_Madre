@@ -13,7 +13,7 @@ https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Viol
 27.5 Violencia Intrafamiliar 3	FER --> Modelo
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.5.xlsx
 
-27.6 Violación 1	YO --> Modelo
+27.6 Violación 1	YO --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.6.xlsx
 
 27.7 Violación 2	YO --> Modelo
@@ -69,3 +69,7 @@ https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Viol
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/Femicidios%20Actualizado.xlsx
 
 27.25 Acoso Callejero		--------------
+
+
+TRIMESTRES
+https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/Trimestres.xlsx
