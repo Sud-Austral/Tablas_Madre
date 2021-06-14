@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Viol
 27.6 Violación 1	YO --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.6.xlsx
 
-27.7 Violación 2	YO --> Modelo
+27.7 Violación 2	YO --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.7.xlsx
 
 27.8 Violación 3 	YO --> Modelo
@@ -68,7 +68,7 @@ https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Viol
 27  Femicidios 	YO --> Modelo LISTO // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/Femicidios%20Actualizado.xlsx
 
-27.25 Acoso Callejero		--------------
+27.25 Acoso Callejero		Tabla Naty
 
 
 TRIMESTRES
