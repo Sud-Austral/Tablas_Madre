@@ -1,10 +1,10 @@
-27.1 Acoso Laboral 1		YO --> Modelo // Gráficos LISTO
+27.1 Acoso Laboral 1		FER --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.1.xlsx
 
-27.2 Acoso Laboral 2		YO --> Modelo // Gráficos LISTO
+27.2 Acoso Laboral 2		FER --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.2.xlsx
 
-27.3 Violencia Intrafamiliar 1 	FER --> Modelo
+27.3 Violencia Intrafamiliar 1 	FER --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.3.xlsx
 
 27.4 Violencia Intrafamiliar 2	FER --> Modelo
