@@ -7,10 +7,10 @@ https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Viol
 27.3 Violencia Intrafamiliar 1 	FER --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.3.xlsx
 
-27.4 Violencia Intrafamiliar 2	FER --> Modelo
+27.4 Violencia Intrafamiliar 2	FER --> Modelo// Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.4.xlsx
 
-27.5 Violencia Intrafamiliar 3	FER --> Modelo
+27.5 Violencia Intrafamiliar 3	FER --> Modelo// Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.5.xlsx
 
 27.6 Violación 1	YO --> Modelo // Gráficos LISTO
@@ -19,31 +19,31 @@ https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Viol
 27.7 Violación 2	YO --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.7.xlsx
 
-27.8 Violación 3 	YO --> Modelo
+27.8 Violación 3 	YO --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.8.xlsx
 
-27.9 Violencia Económica Frecuencia		CARO --> Modelo
+27.9 Violencia Económica Frecuencia		CARO --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.9.xlsx
 
-27.10 Atenciones Salud	CARO --> Modelo
+27.10 Atenciones Salud	CARO --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.10.xlsx
 
-27.11 Establecimientos de Apoyo 1	NATY --> Modelo
+27.11 Establecimientos de Apoyo 1	NATY --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.11.xlsx
 
-27.12 Establecimientos de Apoyo 2  	NATY --> Modelo
+27.12 Establecimientos de Apoyo 2  	NATY --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.12.xlsx
 
-27.13 Establecimientos de Apoyo 3	NATY --> Modelo
+27.13 Establecimientos de Apoyo 3	NATY --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.13.xlsx
 
-27.14 Establecimientos de Apoyo 4	NATY --> Modelo
+27.14 Establecimientos de Apoyo 4	NATY --> Modelo // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.14.xlsx
 
-27.15 Abuso Sexual			---------------
+27.15 Abuso Sexual		// Gráficos LISTO	
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.15.xlsx
 
-27.16 Sentencias Generales		---------------
+27.16 Sentencias Generales		// Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/27.16.xlsx
 
 27.17 Violencia Psicológica Frecuencia	PAULA--> Modelo
@@ -61,14 +61,14 @@ https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Viol
 
 27.22 Violencia General Tasa 100 mil mujeres	PAULA--> Modelo
 
-27.23 Violencia Económica Tasa 100 mil		CARO --> Modelo
+27.23 Violencia Económica Tasa 100 mil		CARO --> Modelo // Gráficos LISTO
 
-27.24 Violencia Económica Tasa 100 mil mujeres	CARO --> Modelo
+27.24 Violencia Económica Tasa 100 mil mujeres	CARO --> Modelo // Gráficos LISTO
 
 27  Femicidios 	YO --> Modelo LISTO // Gráficos LISTO
 https://raw.githubusercontent.com/Sud-Austral/Tablas_Madre/main/G%C3%A9nero/Violencia%20contra%20Mujer/Femicidios%20Actualizado.xlsx
 
-27.25 Acoso Callejero		Tabla Naty
+27.25 Acoso Callejero		Tabla Naty // Revisón tablas adicionales Patricio
 
 
 TRIMESTRES
