@@ -1,5 +1,4 @@
-pandas
+pandas==1.0.3
 time
-requests
+requests==2.25.1
 selenium
-selenium.webdriver.firefox.options
