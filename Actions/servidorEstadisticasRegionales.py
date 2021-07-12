@@ -9,8 +9,8 @@ url = "https://www.ine.cl/estadisticas/sociales/economia-regional/repositorio-de
 def getDriver(link):
     
     options = Options()
-    # options.log.level = "trace"
-    # options.add_argument("--headless")
+    options.log.level = "trace"
+    options.add_argument("--headless")
     options.set_preference("browser.download.manager.showWhenStarting", False)
     options.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/csv")
     driver = webdriver.Firefox(options=options)
