@@ -1,0 +1,43 @@
+import pandas as pd
+import time
+import requests
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+
+url = "https://www.ine.cl/estadisticas/sociales/economia-regional/repositorio-de-estadisticas-regionales"
+
+def getDriver(link):
+    
+    options = Options()
+    # options.log.level = "trace"
+    # options.add_argument("--headless")
+    options.set_preference("browser.download.manager.showWhenStarting", False)
+    options.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/csv")
+    driver = webdriver.Firefox(options=options)
+    driver.set_page_load_timeout("60")
+    driver.get(link)
+    
+    return driver
+
+def descarga():
+    driver = getDriver(url)
+
+    information = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[1]/div/div/div/div[1]")
+    information.click()
+    time.sleep(2)
+
+    files = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[2]/div/div/div/div[4]/div/div/div")
+    files.click()
+    time.sleep(2)
+
+    _file1 = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[3]/div/div/div/div/div[2]/a[1]").get_attribute('href')
+    _file2 = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[3]/div/div/div/div/div[2]/a[2]").get_attribute('href')
+
+    filen1 = requests.get(_file1, allow_redirects=True)
+    open('Estadísticas Regionales/descriptor-de-campos.xlsx', 'wb').write(filen1.content)
+
+    filen2 = requests.get(_file2, allow_redirects=True)
+    open('Estadísticas Regionales/estadísticas-regionales.xlsx', 'wb').write(filen2.content)
+
+if __name__ == '__main__':
+    descarga()
