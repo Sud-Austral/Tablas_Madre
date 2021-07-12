@@ -20,7 +20,7 @@ jobs:
     - name: Instalar Python 
       run: |
         python -m pip install --upgrade pip
-        pip install -r Archivos/requirementsEstadisticas.txt
+        pip install -r Actions/requirementsEstadisticas.txt
 
         python Actions/servidorEstadisticasRegionales.py
 
