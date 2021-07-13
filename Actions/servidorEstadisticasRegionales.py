@@ -34,10 +34,10 @@ def descarga():
     _file2 = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[3]/div/div/div/div/div[2]/a[2]").get_attribute('href')
 
     filen1 = requests.get(_file1, allow_redirects=True)
-    open('Estadísticas Regionales/descriptor-de-campos.xlsx', 'wb').write(filen1.content)
+    open('Estadísticas Regionales/estadísticas-regionales.xlsx', 'wb').write(filen1.content)
 
     filen2 = requests.get(_file2, allow_redirects=True)
-    open('Estadísticas Regionales/estadísticas-regionales.xlsx', 'wb').write(filen2.content)
+    open('Estadísticas Regionales/descriptor-de-campos.xlsx', 'wb').write(filen2.content)
 
 if __name__ == '__main__':
     descarga()
