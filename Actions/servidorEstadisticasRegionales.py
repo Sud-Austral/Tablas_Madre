@@ -39,5 +39,10 @@ def descarga():
     filen2 = requests.get(_file2, allow_redirects=True)
     open('Estadísticas Regionales/descriptor-de-campos.xlsx', 'wb').write(filen2.content)
 
+    df= pd.read_excel("Estadísticas Regionales/descriptor-de-campos.xlsx")
+    df.columns = df.iloc[2]
+    df = df.drop(range(3))
+    df.to_excel("Estadísticas Regionales/descriptor-de-campos.xlsx", index=False)
+
 if __name__ == '__main__':
     descarga()
