@@ -40,6 +40,7 @@ def descarga():
     open('Estadísticas Regionales/descriptor-de-campos.xlsx', 'wb').write(filen2.content)
 
     df= pd.read_excel('Estadísticas Regionales/estadísticas-regionales.xlsx')
+    
     df.columns = df.iloc[2]
     df = df.drop(range(3))
     df.to_excel('Estadísticas Regionales/estadísticas-regionales.xlsx', index=False)
