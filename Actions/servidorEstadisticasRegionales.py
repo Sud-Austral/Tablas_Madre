@@ -21,8 +21,10 @@ def getDriver(link):
     return driver
 
 def descarga():
-    url = "https://github.com/hectorflores329/gecko/raw/main/geckodriver.exe"
-    wget.download(url, 'geckodriver.exe')
+    urlGecko = "https://github.com/hectorflores329/gecko/raw/main/geckodriver.exe"
+    wget.download(urlGecko, 'geckodriver.exe')
+
+    time.sleep(30)
 
     driver = getDriver(url)
 
