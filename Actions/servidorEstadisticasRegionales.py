@@ -51,5 +51,7 @@ def descarga():
     df = df.drop(range(3))
     df.to_excel('Estadísticas Regionales/estadísticas-regionales.xlsx', index=False)
 
+    print("Se han descargado los archivos correctamente.")
+
 if __name__ == '__main__':
     descarga()
