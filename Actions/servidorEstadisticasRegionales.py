@@ -1,6 +1,7 @@
 import pandas as pd
 import time
 import requests
+import wget
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
@@ -20,6 +21,11 @@ def getDriver(link):
     return driver
 
 def descarga():
+    urlGecko = "https://github.com/hectorflores329/gecko/raw/main/geckodriver.exe"
+    wget.download(urlGecko, 'geckodriver.exe')
+
+    time.sleep(30)
+
     driver = getDriver(url)
 
     information = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[1]/div/div/div/div[1]")
@@ -44,6 +50,8 @@ def descarga():
     df.columns = df.iloc[2]
     df = df.drop(range(3))
     df.to_excel('Estadísticas Regionales/estadísticas-regionales.xlsx', index=False)
+
+    print("Se han descargado los archivos correctamente.")
 
 if __name__ == '__main__':
     descarga()
