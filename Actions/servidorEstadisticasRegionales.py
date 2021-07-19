@@ -5,9 +5,6 @@ import wget
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 
-url = "https://github.com/hectorflores329/gecko/raw/main/geckodriver.exe"
-wget.download(url, 'geckodriver.exe')
-
 url = "https://www.ine.cl/estadisticas/sociales/economia-regional/repositorio-de-estadisticas-regionales"
 
 def getDriver(link):
@@ -24,6 +21,9 @@ def getDriver(link):
     return driver
 
 def descarga():
+    url = "https://github.com/hectorflores329/gecko/raw/main/geckodriver.exe"
+    wget.download(url, 'geckodriver.exe')
+
     driver = getDriver(url)
 
     information = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[1]/div/div/div/div[1]")
