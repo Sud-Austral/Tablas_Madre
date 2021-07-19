@@ -1,8 +1,12 @@
 import pandas as pd
 import time
 import requests
+import wget
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
+
+url = "https://github.com/hectorflores329/gecko/raw/main/geckodriver.exe"
+wget.download(url, 'geckodriver.exe')
 
 url = "https://www.ine.cl/estadisticas/sociales/economia-regional/repositorio-de-estadisticas-regionales"
 
