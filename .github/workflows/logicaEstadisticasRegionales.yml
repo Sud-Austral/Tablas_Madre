@@ -25,7 +25,8 @@ jobs:
         pip install -r Actions/requirementsEstadisticas.txt
 
         python Actions/servidorEstadisticasRegionales.py
-
+        rm Actions/geckodriver.txt
+        
     - uses: stefanzweifel/git-auto-commit-action@v2
       with:
         commit_message: "Estadísticas regionales"
