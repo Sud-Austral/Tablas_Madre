@@ -28,22 +28,21 @@ def descarga():
 
     driver = getDriver(url)
 
-    time.sleep(20)
+    time.sleep(30)
 
     information = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[1]/div/div/div/div[1]")
     information.click()
-    time.sleep(2)
+    time.sleep(5)
 
     time.sleep(3)
 
     files = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[2]/div/div/div/div[4]/div/div/div")
     files.click()
-    time.sleep(2)
-
-    time.sleep(3)
+    time.sleep(5)
 
     _file1 = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[3]/div/div/div/div/div[2]/a[1]").get_attribute('href')
     _file2 = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[3]/div/div/div/div/div[2]/a[2]").get_attribute('href')
+    time.sleep(5)
 
     try:
         filen1 = requests.get(_file1, allow_redirects=True)
