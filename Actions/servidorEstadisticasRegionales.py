@@ -10,8 +10,8 @@ url = "https://www.ine.cl/estadisticas/sociales/economia-regional/repositorio-de
 def getDriver(link):
     
     options = Options()
-    options.log.level = "trace"
-    options.add_argument("--headless")
+    # options.log.level = "trace"
+    # options.add_argument("--headless")
     options.set_preference("browser.download.manager.showWhenStarting", False)
     options.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/csv")
     driver = webdriver.Firefox(options=options)
@@ -34,13 +34,13 @@ def descarga():
     information.click()
     time.sleep(5)
 
-    time.sleep(3)
-
     files = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[2]/div/div/div/div[4]/div/div/div")
     files.click()
     time.sleep(5)
 
     _file1 = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[3]/div/div/div/div/div[2]/a[1]").get_attribute('href')
+    time.sleep(5)
+    
     _file2 = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[3]/div/div/div/div/div[2]/a[2]").get_attribute('href')
     time.sleep(5)
 
