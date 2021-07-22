@@ -1,4 +1,4 @@
-name: Estad. Regionales
+name: Estad. Regionales (On push)
 
 on:
     push
