@@ -24,7 +24,7 @@ def descarga():
     urlGecko = "https://github.com/hectorflores329/gecko/raw/main/geckodriver.exe"
     wget.download(urlGecko, 'geckodriver.exe')
 
-    time.sleep(30)
+    print("Gecko driver descargado")
 
     driver = getDriver(url)
 
@@ -51,7 +51,6 @@ def descarga():
     df = df.drop(range(3))
     df.to_excel('Estadísticas Regionales/estadísticas-regionales.xlsx', index=False)
 
-    print("Se han descargado los archivos correctamente.")
 
 if __name__ == '__main__':
     descarga()
