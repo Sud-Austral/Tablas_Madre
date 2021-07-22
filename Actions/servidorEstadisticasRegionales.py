@@ -21,9 +21,11 @@ def getDriver(link):
     return driver
 
 def descarga():
-    urlGecko = "https://github.com/hectorflores329/gecko/raw/main/geckodriver.exe"
+    urlGecko = "https://github.com/hectorflores329/gecko/blob/main/geckodriver.exe"
     wget.download(urlGecko, 'geckodriver.exe')
 
+    time.sleep(30)
+    
     print("Gecko driver descargado")
 
     driver = getDriver(url)
@@ -40,7 +42,7 @@ def descarga():
 
     _file1 = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[3]/div/div/div/div/div[2]/a[1]").get_attribute('href')
     time.sleep(5)
-    
+
     _file2 = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[3]/div/div/div/div/div[2]/a[2]").get_attribute('href')
     time.sleep(5)
 
