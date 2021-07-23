@@ -2,7 +2,8 @@ name: Estad. Regionales
 
 on:
     schedule:
-      - cron:  '* 0 5 1-12 *'
+      #- cron:  '* 0 5 1-12 *'
+      - cron:  '* * 24 1-12 *'
       # At every minute past hour 0 on day-of-month 5 in every month from January through December.
 
 jobs:
@@ -19,7 +20,7 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.7
-    - name: Instalar Python 
+    - name: Descargando datos 
       run: |
         python -m pip install --upgrade pip
         pip install -r Actions/requirementsEstadisticas.txt

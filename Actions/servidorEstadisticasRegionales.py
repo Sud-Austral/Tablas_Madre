@@ -21,29 +21,46 @@ def getDriver(link):
     return driver
 
 def descarga():
-    urlGecko = "https://github.com/hectorflores329/gecko/raw/main/geckodriver.exe"
+    urlGecko = "https://github.com/hectorflores329/gecko/blob/main/geckodriver.exe"
     wget.download(urlGecko, 'geckodriver.exe')
 
     time.sleep(30)
 
+    print("Gecko driver descargado")
+
     driver = getDriver(url)
+
+    time.sleep(30)
 
     information = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[1]/div/div/div/div[1]")
     information.click()
-    time.sleep(2)
+    time.sleep(5)
 
     files = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[2]/div/div/div/div[4]/div/div/div")
     files.click()
-    time.sleep(2)
+    time.sleep(5)
 
     _file1 = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[3]/div/div/div/div/div[2]/a[1]").get_attribute('href')
+    time.sleep(5)
+
     _file2 = driver.find_element_by_xpath("/html/body/form/div[8]/div[3]/div[3]/div/div/div/div/div[2]/a[2]").get_attribute('href')
+    time.sleep(5)
 
-    filen1 = requests.get(_file1, allow_redirects=True)
-    open('Estadísticas Regionales/estadísticas-regionales.xlsx', 'wb').write(filen1.content)
+    try:
+        filen1 = requests.get(_file1, allow_redirects=True)
+        open('Estadísticas Regionales/estadísticas-regionales.xlsx', 'wb').write(filen1.content)
+        print('Archivo estadísticas-regionales.xlsx descargado correctamente')
 
-    filen2 = requests.get(_file2, allow_redirects=True)
-    open('Estadísticas Regionales/descriptor-de-campos.xlsx', 'wb').write(filen2.content)
+    except:
+        print("No se ha podido descargar el archivo: estadísticas-regionales.xlsx")
+
+    try:
+        filen2 = requests.get(_file2, allow_redirects=True)
+        open('Estadísticas Regionales/descriptor-de-campos.xlsx', 'wb').write(filen2.content)
+        print('Archivo descriptor-de-campos.xlsx descargado correctamente')
+
+    except:
+        print('No se ha podido descargar el archivo: descriptor-de-campos.xlsx')
 
     df= pd.read_excel('Estadísticas Regionales/estadísticas-regionales.xlsx')
     
@@ -51,7 +68,6 @@ def descarga():
     df = df.drop(range(3))
     df.to_excel('Estadísticas Regionales/estadísticas-regionales.xlsx', index=False)
 
-    print("Se han descargado los archivos correctamente.")
-
+    print('Proceso finalizado.')
 if __name__ == '__main__':
     descarga()
