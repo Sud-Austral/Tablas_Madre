@@ -2,8 +2,8 @@ name: Estad. Regionales
 
 on:
     schedule:
-      # - cron:  '* 0 22 1-12 *'
-      - cron:  '29 23 23 1-12 *'
+      # - cron:  '* 0 5 1-12 *'
+      - cron:  '30 23 22 1-12 *'
       # At every minute past hour 0 on day-of-month 5 in every month from January through December.
 
 jobs:
