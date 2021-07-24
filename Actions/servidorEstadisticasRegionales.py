@@ -69,5 +69,6 @@ def descarga():
     df.to_excel('Estadísticas Regionales/estadísticas-regionales.xlsx', index=False)
 
     print('Proceso finalizado.')
+    
 if __name__ == '__main__':
     descarga()
