@@ -28,7 +28,11 @@ def descarga():
 
     print("Gecko driver descargado")
 
-    driver = getDriver(url)
+    try:
+        driver = getDriver(url)
+    except:
+        time.sleep(60)
+        driver = getDriver(url)
 
     time.sleep(30)
 
@@ -69,5 +73,6 @@ def descarga():
     df.to_excel('Estadísticas Regionales/estadísticas-regionales.xlsx', index=False)
 
     print('Proceso finalizado.')
+
 if __name__ == '__main__':
     descarga()
