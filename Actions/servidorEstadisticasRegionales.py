@@ -66,10 +66,16 @@ def descarga():
     except:
         print('No se ha podido descargar el archivo: descriptor-de-campos.xlsx')
 
+    
     df= pd.read_excel('Estadísticas Regionales/estadísticas-regionales.xlsx')
     
+    time.sleep(2)
     df.columns = df.iloc[2]
+
+    time.sleep(2)
     df = df.drop(range(3))
+    
+    time.sleep(2)
     df.to_excel('Estadísticas Regionales/estadísticas-regionales.xlsx', index=False)
 
     print('Proceso finalizado.')
