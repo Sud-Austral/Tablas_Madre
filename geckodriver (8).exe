@@ -85,7 +85,7 @@
   <link rel="assets" href="https://github.githubassets.com/">
   
 
-  <meta name="request-id" content="07C1:5ECA:1BD94A8:2BEAF73:60FB2E0C" data-pjax-transient="true"/><meta name="html-safe-nonce" content="d865afee5d2fa2674f7fbda854648cefb6d709fbc35016ea6c3cf32eb098ed38" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwN0MxOjVFQ0E6MUJEOTRBODoyQkVBRjczOjYwRkIyRTBDIiwidmlzaXRvcl9pZCI6IjIwMDgzNzE5OTUzNzE4NDMwODQiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="1a9d485e2158c89ea7127aa118c004f8be64b29704f7762f9f28b383105fdb6b" data-pjax-transient="true"/>
+  <meta name="request-id" content="0600:5D14:1637566:29C48BD:60FECD49" data-pjax-transient="true"/><meta name="html-safe-nonce" content="715f3913edc7f82e1c55a42981b66dd81c7d5b7fa6672fb9bd4f337dabb546ba" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIwNjAwOjVEMTQ6MTYzNzU2NjoyOUM0OEJEOjYwRkVDRDQ5IiwidmlzaXRvcl9pZCI6IjYwNzYxNzM2MDA1OTM3MjY3OTMiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="acf6efbfca04607b3ddb735e4c89fc33dfdd6ba57f87e59bd276e4c22d4ade40" data-pjax-transient="true"/>
 
     <meta name="hovercard-subject-tag" content="repository:387609814" data-pjax-transient>
 
@@ -340,7 +340,7 @@
             spellcheck="false"
             autocomplete="off"
           >
-          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="9VF5a5GGpyEuXQcLvf8Ct+2PgLHdhvgjFxVyTKAjrPIeY3YayQMXqoMbrBkoIjaN7OOz1sbn9jW6pbUvX5vcZw==" />
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="VEpmqxbXxoSHrVwkvIMNEJMYvbw/5eYkm1OcKlf1hx1MiY3sySCTmMDVth0pPjVjOGwEim14hsEXVW+gsnmaPg==" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
               <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -1036,7 +1036,7 @@
 </svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/hectorflores329/gecko/delete/main/geckodriver.exe" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="ZHDZwKWPTrN3lTai1QgUeLwoXKKHQh7ZJ7rQ6JG2Y5d01AzY7JKFmRk8KT6HDBD+x0EnMTMilfPFhiAeyLhd4g==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/hectorflores329/gecko/delete/main/geckodriver.exe" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="4N1iNRo8m56QXskKCi9PrvUYN5rHOXfOFpdsCiUvjeZLEnFoB+i6N22uu/nV5Pyro5IDc0lhDqX3vllViuawZw==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="You must be signed in to make or propose changes" data-disable-with>
               <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" class="octicon octicon-trash">
