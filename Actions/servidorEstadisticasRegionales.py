@@ -61,6 +61,23 @@ def descarga():
         open('Estadísticas Regionales/estadísticas-regionales.xlsx', 'wb').write(filen1.content)
         print('Archivo estadísticas-regionales.xlsx descargado correctamente')
 
+        try:
+            df= pd.read_excel('Estadísticas Regionales/estadísticas-regionales.xlsx')
+            
+            time.sleep(2)
+            df.columns = df.iloc[2]
+
+            time.sleep(2)
+            df = df.drop(range(3))
+
+            time.sleep(2)
+            df.to_excel('Estadísticas Regionales/estadísticas-regionales.xlsx', index=False)
+
+            print('Proceso finalizado.')
+
+        except:
+            print("No se ha podido procesar el archivo.")
+
     except:
         print("No se ha podido descargar el archivo: estadísticas-regionales.xlsx")
 
@@ -71,20 +88,6 @@ def descarga():
 
     except:
         print('No se ha podido descargar el archivo: descriptor-de-campos.xlsx')
-
-    
-    df= pd.read_excel('Estadísticas Regionales/estadísticas-regionales.xlsx')
-    
-    time.sleep(2)
-    df.columns = df.iloc[2]
-
-    time.sleep(2)
-    df = df.drop(range(3))
-
-    time.sleep(2)
-    df.to_excel('Estadísticas Regionales/estadísticas-regionales.xlsx', index=False)
-
-    print('Proceso finalizado.')
 
 if __name__ == '__main__':
     descarga()
