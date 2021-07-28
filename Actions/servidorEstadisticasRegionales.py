@@ -21,6 +21,7 @@ def getDriver(link):
     return driver
 
 def descarga():
+    
     urlGecko = "https://github.com/hectorflores329/gecko/blob/main/geckodriver.exe"
     wget.download(urlGecko, 'geckodriver.exe')
 
@@ -28,11 +29,16 @@ def descarga():
 
     print("Gecko driver descargado")
 
-    try:
-        driver = getDriver(url)
-    except:
-        time.sleep(60)
-        driver = getDriver(url)
+    web = 0
+    while(web == 0):
+        try:
+            driver = getDriver(url)
+            time.sleep(30)
+            web = 1
+        except:
+            driver = webdriver.Firefox()
+            driver.delete_all_cookies()
+
 
     time.sleep(30)
 
@@ -74,7 +80,7 @@ def descarga():
 
     time.sleep(2)
     df = df.drop(range(3))
-    
+
     time.sleep(2)
     df.to_excel('Estadísticas Regionales/estadísticas-regionales.xlsx', index=False)
 
