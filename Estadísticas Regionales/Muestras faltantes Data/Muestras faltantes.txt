@@ -1,0 +1,88 @@
+Electricidad:
+
+* Arica y Parinacota:
+- Distribución Electrica.
+- Generación Electrica.
+- Generación Hidraulica.
+- Generación Termica.
+
+* Antofagasta:
+- Distribución Electrica: Residencial, Comercial, Minero, Agricola, Industrial, Varios.
+- Generación Electrica.
+
+* Atacama:
+- Generación Electrica.
+- Distribución Electrica: Minería y Otros Destinos.
+
+* Coquimbo:
+- Energia Electrica, Generación: Eólica, Hidráulica, Térmica, Solar y 
+Distribución: Residencial, Comercial, Minero, Agricola, Industrial, Varios.
+
+* Valparaíso:
+- Generación Solar
+
+* Bio Bio:
+- Distrbución Electrica: Residencial, Comercial, Minero, Agricola, Industrial, Varios.
+
+* La Araucania:
+- Energia Electrica, Generación: Eólica, Hidráulica, Térmica y 
+Distribución: Residencial, Comercial (falta), Agricola, Industrial, Varios.
+
+* Los Ríos:
+- Distribución Electrica: Residencial, Comercial (falta), Minero (falta), Agricola, Industrial, Varios.
+
+* Los Lagos:
+- Distribución Electrica: Residencial, Comercial (falta), Minero (falta), Agricola, Industrial, Varios.
+
+Manufactura:
+
+* Metropolitana: 
+- Indice Produccion Manufacturera (Base 2014).
+
+Minería:
+
+* Metropolitana:
+- Indice Producción Minera, Cobre, Oro y Plata.
+
+* Bio Bio:
+- Producción de Carbón.
+
+* Magallanes:
+- Produccción Caliza y Carbón (falta).
+
+Pesca:
+
+* Bio Bio:
+- Desembarque por grupo de especies.
+- Desembarque artesanal por grupo de especies.
+- Desembarque industrial por grupo de especies.
+- Producción pesquera en centros de cultivo por grupos de especies.
+- Desembarque artesanal por especies de pescado.
+- Desembarque industrial por especies de pescado.
+- Producción pesquera en centros de cultivo por especies.
+
+* Los Ríos:
+- Desembarque peces, mariscos y algas.
+- Desembarque total.
+
+* Los Lagos:
+- Producción Centros de Cultivo según grupo de especies.
+- Desembarque Artesanal según grupo de especies.
+- Producción Centros de Cultivo según especie.
+- Desembarque Pesquero según grupo de especies.
+
+Silvoagropecuario:
+
+* Los Ríos:
+- Leche recepcionada lactea mayor y menor.
+
+* Los Lagos:
+- Leche recepcionada.
+
+* Nacional por región:
+- Encuesta Industria Láctea Menor
+
+Transporte Carga:
+
+* Magallanes
+- Carga transportada por la navegación exterior y de cabotaje.
