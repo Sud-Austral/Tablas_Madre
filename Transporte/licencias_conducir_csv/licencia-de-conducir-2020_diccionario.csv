@@ -1,0 +1,39 @@
+Variable,Valores,Etiqueta
+region,1.0,Región de Tarapacá
+region,2.0,Región de Antofagasta
+region,3.0,Región de Atacama
+region,4.0,Región de Coquimbo
+region,5.0,Región de Valparaíso
+region,6.0,Región de O'Higgins
+region,7.0,Región del Maule
+region,8.0,Región del Biobío
+region,9.0,Región de La Araucanía
+region,10.0,Región de Los Lagos
+region,11.0,Región de Aysén
+region,12.0,Región de Magallanes y de la Antártica Chilena
+region,13.0,Región Metropolitana 
+region,14.0,Región de Los Ríos
+region,15.0,Región de Arica y Parinacota
+region,16.0,Región del Ñuble
+Cod_tram,1.0,Nueva
+Cod_tram,2.0,Renovacion
+Clase_lic,1.0,A1
+Clase_lic,2.0,A2
+Clase_lic,3.0,A3
+Clase_lic,4.0,A4
+Clase_lic,5.0,A5
+Clase_lic,6.0,B
+Clase_lic,7.0,C
+Clase_lic,8.0,D
+Clase_lic,9.0,E
+Clase_lic,10.0,F
+Cod_sexo,1.0,Hombre
+Cod_sexo,2.0,Mujer
+Tramo_etario,1.0,17 - 21
+Tramo_etario,2.0,22 - 29
+Tramo_etario,3.0,30 - 39
+Tramo_etario,4.0,40 - 49
+Tramo_etario,5.0,50 - 59
+Tramo_etario,6.0,60 - 69
+Tramo_etario,7.0,70 - 79
+Tramo_etario,8.0,80 y más
