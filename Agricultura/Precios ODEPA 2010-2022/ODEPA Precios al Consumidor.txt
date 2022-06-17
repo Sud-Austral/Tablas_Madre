@@ -8,3 +8,5 @@ https://www.odepa.gob.cl/precios/mayoristas-frutas-y-hortalizas
 Internacionales Productos Básicos
 https://www.odepa.gob.cl/precios/series-historicas-de-precios-diarios-internacionales-de-productos-basicos
 
+Precios Ferias Ganaderas
+https://reportes.odepa.gob.cl/#/precios-ferias-ganaderas
